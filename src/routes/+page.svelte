@@ -5,7 +5,7 @@
 	let edad = '';
 	let editId = null;
 
-	const API = 'https://b-svelte.onrender.com/personas';
+	const API = 'https://b2-svelte.onrender.com/personass';
 
 	async function cargarPersonas() {
 		const res = await fetch(API);
